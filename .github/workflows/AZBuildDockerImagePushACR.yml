@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: bash
         working-directory: ACR_WebApp
     steps:
       - uses: actions/checkout@v4
