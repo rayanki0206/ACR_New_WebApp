@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ACR_WebApp/ACR_WebApp.csproj ACR_WebApp/
+COPY ACR_WebApp.csproj ./
 RUN dotnet restore "ACR_WebApp/ACR_WebApp.csproj"
 COPY . .
 WORKDIR "/src/ACR_WebApp"
