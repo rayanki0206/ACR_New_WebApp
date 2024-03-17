@@ -36,7 +36,7 @@ jobs:
       
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 'CloudQuickLabsWebApp'
+        app-name: 'DemoACRWebApp'
         images: 'democontainerregistry0206.azurecr.io/myapp:${{ github.sha }}'
     
     - name: Azure logout
