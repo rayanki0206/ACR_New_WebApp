@@ -9,7 +9,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ACR_New_WebApp
+        working-directory: ACR_WebApp
     steps:
       - uses: actions/checkout@v4
       - uses: azure/docker-login@v1
