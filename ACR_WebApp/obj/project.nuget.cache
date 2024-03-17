@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e+H7Xf62QtbX/50aFTH6pqS9NKgRDgJ2nmiftyBYa7aUbssTJ1GoSIN4E8BxpsZfg0jSEgmvf0u667szY/le8Q==",
+  "success": true,
+  "projectFilePath": "D:\\OneDrive - WinWire Technologies\\Desktop\\CICD Pipelines\\ACR_WebApp\\ACR_WebApp\\ACR_WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vignesh Rayanki\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
