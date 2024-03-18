@@ -1,7 +1,9 @@
 name: Deploy Container Image to Azure App Service
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 permissions:
       id-token: write
